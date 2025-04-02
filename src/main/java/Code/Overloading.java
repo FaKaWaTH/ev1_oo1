@@ -32,6 +32,11 @@ public class Overloading {
         
         Usuario[] objetos = {felix, roberto, carmen};
         
-        System.out.println(objetos[0].id +" "+ objetos[0].nombre +" "+ objetos[0].correo +" "+ objetos[0].mayorEdad);
+        for (int i = 0; i<objetos.length; i++)
+        {
+            System.out.println("ID: "+objetos[i].id +" Nombre: "+objetos[i].nombre +" Correo: "+ objetos[i].correo +" Mayor de edad:  "+ objetos[i].mayorEdad);
+        }
+        
+        
     }
 }
