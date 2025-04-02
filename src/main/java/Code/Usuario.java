@@ -1,6 +1,8 @@
 package Code;
 
 public class Usuario {
+    //   Establecer datos del objeto
+    
     int id;
     
     String nombre;
@@ -9,6 +11,8 @@ public class Usuario {
     boolean mayorEdad;
 
     public Usuario() {}
+    
+    //  Creaciín de método sobrecargado
     
     public void registrar(int id, String nombre) {
         this.id = id;

@@ -8,18 +8,7 @@ package Code;
  */
 public class Overloading {
 
-    public static void main(String[] args) {
-        /*
-        *   Demostrar la creación de multiples Usuarios con
-        *   el método registrar()
-        *
-        *   Ejemplos
-        *       registar(id,nombre)
-        *       registar(id,nombre,correo)
-        *       registar(id,nombre,correo,mayorEdad)
-        *
-        */
-        
+    public static void main(String[] args) {        
         //  Utilizamos los metodos para crear usuarios
         
         Usuario felix = new Usuario();
