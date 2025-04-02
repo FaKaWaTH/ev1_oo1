@@ -20,9 +20,13 @@ public class Overloading {
         *
         */
         
+        //  Utilizamos los metodos para crear usuarios
+        
         Usuario felix = new Usuario();
         Usuario roberto = new Usuario();
         Usuario carmen = new Usuario();
+        
+        //  Utilizacion de sobrecarga del metodo registrar() 
         
         felix.registrar(1, "Felix");
         
@@ -30,7 +34,12 @@ public class Overloading {
         
         carmen.registrar(3, "Carmen", "carcitabellakha@gmail.com", false);
         
+        //  Creacion de un array los 3 usuarios registrados para iterarlos
+        
         Usuario[] objetos = {felix, roberto, carmen};
+        
+        //  Utilizacion de un bucle para imprimir 
+        //  en la consola los datos de cada objeto 
         
         for (int i = 0; i<objetos.length; i++)
         {
